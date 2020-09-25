@@ -14,9 +14,9 @@
 
 ## Overview:
 
-<h2> 
+<strong> 
 This projects involves dealing with Web API and build Asynchronous Application through the following steps:
-</h2>
+</strong>
 - Setup a Node environment with Express and the necessary project dependencies.
 - Setup a server with GET and POST routes.
 - Create developer credentials for a Web API.
