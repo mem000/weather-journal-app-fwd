@@ -1,7 +1,6 @@
 # Weather Journal App - 2nd Project - Udacity - FWD - Professional Web Development - NanoDegree
 
 - <strong>The project link on Github:</strong> https://github.com/mem000/weather-journal-app-fwd
-- <strong>The project link on Github Pages:</strong> https://mem000.github.io/weather-journal-app-fwd/
 
 * An asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 * This app gets the current temperature from [Open Weather Map](https://openweathermap.org/) API according to the user input for a city name.
