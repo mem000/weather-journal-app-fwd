@@ -4,6 +4,7 @@
 
 * An asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 * This app gets the current temperature from [Open Weather Map](https://openweathermap.org/) API according to the user input for a city name.
+* Responsive Design.
 
 ## Table of Contents
 
