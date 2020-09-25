@@ -26,9 +26,11 @@
 ## Project-Scenario:
 
 - When user opens the app, it should enter a valid city name, and then the user can press 'Generate', there a drop-down list of some cities from which the user can choose or enter any other city.
-- First the app checks that city name is not empty, if it's empty the app will display error messgae 'City name cannot be empty, please enter it' , otherwise the app then sends a GET to [OpenWeatherMap](https://openweathermap.org/) API to obtain the current weather data of the specified city, and then the API responds:
-  -- Case (1): if the city name is not valid, the API will respond with ERROR message ('404 - Not Found'), and then an error messgae 'Please enter a valid city name' will be displayed on UI.
-  -- Case (2): if the city name is valid, the API will respond with an object holds the current weather data of the specified city, after that app will extract the temperature from this object, and build a new object contains (city name, temperature, current time & date, and user feelings) and sends this new object in a POST request to the local server.
+- First the app checks that city name is not empty, if it's empty the app will display error messgae 'City name cannot be empty, please enter it', otherwise the app then sends a GET to [OpenWeatherMap](https://openweathermap.org/) API to obtain the current weather data of the specified city, and then the API responds:
+  <ul>
+      - Case (1): if the city name is not valid, the API will respond with ERROR message ('404 - Not Found'), and then an error messgae 'Please enter a valid city name' will be displayed on UI.
+      - Case (2): if the city name is valid, the API will respond with an object holds the current weather data of the specified city, after that app will extract the temperature from this object, and build a new object contains (city name, temperature, current time & date, and user feelings) and sends this new object in a POST request to the local server.
+  </ul>
 - for every POST request to the local server, the server will add a new entry in the projectData array (this array includes all objects data receied from the client).
 - updateUI function:
   finally this function will send a GET request to the local request on the route path '/allProjectData', and the server will respond by allPojectData array, and then the function will access the last object added to this array, and obtain the object data, and send these data as a new entry in UI.
