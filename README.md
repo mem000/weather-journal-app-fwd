@@ -30,9 +30,10 @@
   <ul>
       <li> 
       Case (1): if the city name is not valid, the API will respond with ERROR message ('404 - Not Found'), and then an error messgae 'Please enter a valid city name' will be displayed on UI.
-      
+      </li>
       <li>
       Case (2): if the city name is valid, the API will respond with an object holds the current weather data of the specified city, after that app will extract the temperature from this object, and build a new object contains (city name, temperature, current time & date, and user feelings) and sends this new object in a POST request to the local server.
+      </li>
   </ul>
 - for every POST request to the local server, the server will add a new entry in the projectData array (this array includes all objects data receied from the client).
 - updateUI function:
