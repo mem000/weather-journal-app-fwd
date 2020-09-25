@@ -1,5 +1,6 @@
 # Weather Journal App - 2nd Project - Udacity - FWD - Professional Web Development - NanoDegree
 
+- <strong>The project link on Github:</strong> https://github.com/mem000/weather-journal-app-fwd
 - <strong>The project link on Github Pages:</strong> https://openweathermap.org/
 
 * An asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
@@ -16,13 +17,13 @@
 <h2> 
 This projects involves dealing with Web API and build Asynchronous Application through the following steps:
 </h2>
-* Setup a Node environment with Express and the necessary project dependencies.
-* Setup a server with GET and POST routes.
-* Create developer credentials for a Web API.
-* Use the Fetch API with my credentials and user input to get dynamic data into my app routes.
-* Access a GET route on the server side, from a function called on the client side.
-* Chain Promises together.
-* Access HTML elements with JavaScript and set their properties dynamically.
+- Setup a Node environment with Express and the necessary project dependencies.
+- Setup a server with GET and POST routes.
+- Create developer credentials for a Web API.
+- Use the Fetch API with my credentials and user input to get dynamic data into my app routes.
+- Access a GET route on the server side, from a function called on the client side.
+- Chain Promises together.
+- Access HTML elements with JavaScript and set their properties dynamically.
 
 ## Project-Scenario:
 
